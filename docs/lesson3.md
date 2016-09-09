@@ -1,4 +1,4 @@
-# Module 3 - Lesson 2
+# Module 3 - Lesson 3
 
 ## Task
 
@@ -17,7 +17,7 @@ Only write your code in the search results function.
   - `var sentence = "This is a long sentence"` creates the variable sentence
   - `sentence.indexOf("his")` will return a result of 1, remember with computers things start at 0 so the first character 'T' is at position 0
   - `sentence.indexOf("long")` will return a result of 10
-  - `sentence.indexOf("long")` will return a result of 18, this is because T and t are not the same, T is upper case.
+  - `sentence.indexOf("t")` will return a result of 18, this is because T and t are not the same, T is upper case.
   - `sentence.indexOf("woof")` will return a result of -1, as it could not be found in the variable sentence
 
 5. If the term could be found in the placeName, add the offersData index to the array called results
